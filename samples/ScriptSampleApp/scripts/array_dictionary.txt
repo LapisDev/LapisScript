@@ -1,0 +1,13 @@
+﻿// Array
+var array = [ 0, 1, 2 ]
+print(array)
+// print(array[1])
+var a; var b; var c; var d
+[a, [b, c], d] = [ 1, [2, 3], 4 ]
+print(a, b, c, d)
+
+
+// Dictionary
+var dict = { x : 0, y : 1 }
+print(dict)
+print(dict.x)

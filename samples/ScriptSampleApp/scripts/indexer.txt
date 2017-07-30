@@ -1,0 +1,35 @@
+﻿// Using a string as an indexer value
+class DayCollection
+{
+    private days = [ "Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat" ];
+
+    // This method finds the day or returns -1
+    private GetDay(testDay)
+    {
+        for (var i = 0; i < this.days.length; i++)
+        {
+            if (this.days[i] == testDay)
+            {
+                return i;
+            }       
+        }
+        return -1;
+    }
+
+    // The get accessor returns an number for a given string
+    public this[day]
+    {
+        get
+        {
+            return (this.GetDay(day));
+        }
+    }
+}
+
+var week = new DayCollection();
+print(week["Fri"]);
+print(week["Made-up Day"]);
+
+// Output:
+// 5
+// -1

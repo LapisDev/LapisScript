@@ -1,0 +1,80 @@
+﻿class EventArgs
+{
+    constructor(s)
+    {
+        this.message = s;
+    }
+
+    private message;
+
+    public Message
+    {
+        get { return this.message; }   
+		set { this.message = value; }     
+    }
+}
+
+// Class that publishes an event
+class Publisher
+{
+    public Name { get; set; }
+
+	constructor(name) { this.Name = name; }
+
+    // Declare the event
+    public RaiseEvent;
+
+    public DoSomething()
+    {
+        // Write some code that does something useful here
+        // then raise the event. You can also raise an event
+        // before you execute a block of code.       
+		this.OnRaiseEvent(new EventArgs("Did something"));
+
+    }
+
+    // Wrap event invocations inside a protected virtual method
+    // to allow derived classes to override the event invocation behavior
+    protected OnRaiseEvent(e)
+    {        
+	   var handler = this.RaiseEvent;
+        // Event will be null if there are no subscribers
+        if (handler != null)
+        {
+            // Format the string to send inside theEventArgs parameter
+            e.Message += " by " + this.Name;
+
+            // Use the () operator to raise the event.
+            handler(this, e);
+        }
+    }
+}
+
+//Class that subscribes to an event
+class Subscriber
+{
+    private id;
+
+    constructor(id, pub)
+    {
+        this.id = id;        
+        pub.RaiseEvent = this.HandleCustomEvent;
+    }
+
+    // Define what actions to take when the event is raised.
+    HandleCustomEvent(sender, e)
+    {
+        print(this.id + " received this message: " + e.Message);
+    }
+}
+
+
+var pub = new Publisher("pub");
+var sub1 = new Subscriber("sub1", pub);
+var sub2 = new Subscriber("sub2", pub);
+
+// Call the method that raises the event.
+pub.DoSomething();
+
+// Output:
+// sub2 received this message: Did something by pub

@@ -1,0 +1,89 @@
+var x = ((1 + 2) * 3) - 4;
+var y = (x > 0) ? x : (-x);
+function func(a, b)
+{
+    return a + b;
+}
+var lambda = function (x, y)
+{
+    return x * y;
+};
+label: 
+while (x < 0)
+{
+    if (x == 0)
+    {
+        x = func(x, 1);
+        break;
+    }
+    else
+    {
+        goto label;
+    }
+}
+do
+{
+    for (var i = 0; i < 10; i++)
+    {
+        x += i;
+    }
+} while (x < (-5)); 
+switch (x)
+{
+    case 1:
+
+    case 0:
+        x = lambda(x, 2);
+        break;
+    case -1:
+        x = -lambda(x, 2);
+        break;
+    default:
+}
+{
+    x++;
+    x--;
+}
+class Animal
+{
+    public constructor(name)
+    {
+
+    }
+    public name;
+    public move(meters)
+    {
+        alert(((this.name + " moved ") + meters) + "m.");
+    }
+}
+class Snake extends Animal
+{
+    public constructor(name)
+    {
+        super(name);
+    }
+    public move()
+    {
+        alert("Slithering...");
+        super.move(5);
+    }
+}
+class Horse extends Animal
+{
+    public constructor(name)
+    {
+        super(name);
+    }
+    public move()
+    {
+        alert("Galloping...");
+        super.move(45);
+    }
+}
+var sam = new Snake("Sammy the Python");
+var tom = new Horse("Tommy the Palomino");
+sam.move();
+tom.move(34);
+var array = [ 0, 1, 2 ];
+x = array[0];
+var obj = { x : 1, y : 2, z : 3 };

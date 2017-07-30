@@ -1,0 +1,24 @@
+﻿// Loop
+
+for (var i = 0; i < 5; i++)
+{
+    print(i)
+}
+
+var i = 5;
+for (var i = 0; i < 5; i++)
+{
+    var i = 1
+    print(i)
+}
+print(i)
+
+while (i > 0)
+    print(i--)
+
+do print(i++)
+while (i < 5)
+
+label: print(i--)
+if (i > 0)
+    goto label

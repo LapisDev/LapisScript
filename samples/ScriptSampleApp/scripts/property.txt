@@ -1,0 +1,58 @@
+﻿class Person
+{
+    private m_name = "N/A";
+    private m_Age = 0;
+
+    // Declare a Name property:
+    public Name
+    {
+        get
+        {
+            return this.m_name;
+        }
+        set
+        {
+            this.m_name = value;
+        }
+    }
+
+    // Declare an Age property:
+    public Age
+    {
+        get
+        {
+            return this.m_Age;
+        }
+
+        set
+        {
+            this.m_Age = value;
+        }
+    }
+
+    public ToString()
+    {
+        return "Name = " + this.Name + ", Age = " + this.Age;
+    }
+}
+
+
+// Create a new Person object:
+var person = new Person();
+
+// Print out the name and the age associated with the person:
+print("Person details - " + person.ToString());
+
+// Set some values on the person object:
+person.Name = "Joe";
+person.Age = 99;
+print("Person details - " + person.ToString());
+
+// Increment the Age property:
+person.Age += 1;
+print("Person details - " + person.ToString());
+
+// Output:
+// Person details - Name = N/A, Age = 0
+// Person details - Name = Joe, Age = 99
+// Person details - Name = Joe, Age = 100

@@ -1,0 +1,22 @@
+﻿// Condition
+
+var x = 0
+if (x == 1)
+    x++
+else
+    x--
+print(x)
+
+x = 0
+switch (x)
+{
+	case 0 : print(0)
+	case 1 : print(1)
+	default : print("default")
+}
+switch (x)
+{
+	case 0 : print(0); break
+	case 1 : print(1)
+	default : print("default")
+}

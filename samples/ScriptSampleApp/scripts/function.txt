@@ -1,0 +1,22 @@
+﻿// Recursion 
+function factorial(x)
+{
+    if(x == 0)
+        return 1   
+    else    
+        return x * factorial(x - 1)
+}
+print(factorial(5));				 // 120
+
+
+// Closure
+var x = 0
+function clousure()
+{
+    print(x++)    
+}
+clousure()							 // 0
+clousure()							 // 1
+
+// Lambda
+print((x => -x)(2))                  // -2

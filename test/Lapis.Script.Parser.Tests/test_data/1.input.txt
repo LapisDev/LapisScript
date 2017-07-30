@@ -1,0 +1,31 @@
+var x = (1+2)*3-4
+// 单行注释
+/* 
+多行注释
+*/
+var str='字符串申明';
+var str2='单引号字符串不转义\""\n\123\x12';
+var obj={name:'对象申明',num:100,fun:function(a,b){return a+b;}};
+var arr=['这个是数组','123'];
+var arr2=[['多维数组','111'],['222','223']];
+
+function testClass()
+{
+    this.name='成员属性';
+    this.MemFun=function(){
+        return '成员函数';
+    }
+}
+var newObj=new testClass();
+var nameMem=newObj.name;
+
+
+function testFun(a,v)
+{
+   count=0;
+   for(i=0;i<v;i++)
+   {
+       count+=a;
+   }
+   return count;
+}
