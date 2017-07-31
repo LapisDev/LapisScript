@@ -35,16 +35,19 @@ namespace Lapis.Script.Execution.Runtime.RuntimeContexts
         /// <summary>
         /// Represents the execution result of seqential statements.
         /// </summary>
+        /// <value>The execution result of seqential statements.</value>
         public static readonly ExecuteResult Next = new ExecuteResult(FlowControl.Next);
 
         /// <summary>
         /// Represents the execution result of a <c>break</c> statement.
         /// </summary>
+        /// <value>The execution result of a <c>break</c> statements.</value>
         public static readonly ExecuteResult Break = new ExecuteResult(FlowControl.Break);
 
         /// <summary>
         /// Represents the execution result of a <c>continue</c> statement.
         /// </summary>
+        /// <value>The execution result of a <c>continue</c> statements.</value>
         public static readonly ExecuteResult Continue = new ExecuteResult(FlowControl.Continue);
 
         /// <summary>

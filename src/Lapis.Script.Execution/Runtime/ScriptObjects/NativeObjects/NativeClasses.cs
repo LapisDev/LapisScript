@@ -23,6 +23,7 @@ namespace Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects
         /// <summary>
         /// Represents the root class object of all the script classes.
         /// </summary>
+        /// <value>The root class object of all the script classes.</value>
         public static readonly ObjectClass Instance = new ObjectClass();
 
         /// <summary>
@@ -71,6 +72,7 @@ namespace Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects
         /// <summary>
         /// Represents the class object of the array object.
         /// </summary>
+        /// <value>The class object of the array object.</value>
         public static readonly ArrayClass Instance = new ArrayClass();
 
         /// <summary>
@@ -253,6 +255,7 @@ namespace Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects
         /// <summary>
         /// Represents the class object of the string object.
         /// </summary>
+        /// <value>The class object of the string object.</value>
         public static readonly StringClass Instance = new StringClass();
 
         /// <summary>
@@ -612,6 +615,7 @@ namespace Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects
         /// <summary>
         /// Represents the class object of the number object.
         /// </summary>
+        /// <value>The class object of the number object.</value>
         public static readonly NumberClass Instance = new NumberClass();
 
         /// <summary>
@@ -763,6 +767,7 @@ namespace Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects
         /// <summary>
         /// Represents the class object of the Boolean object.
         /// </summary>
+        /// <value>The class object of the Boolean object.</value>
         public static readonly BooleanClass Instance = new BooleanClass();
 
         /// <summary>

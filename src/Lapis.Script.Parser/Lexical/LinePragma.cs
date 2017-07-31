@@ -56,8 +56,9 @@ namespace Lapis.Script.Parser.Lexical
         }
 
         /// <summary>
-        /// Gets a position that represents the end of file.
+        /// Gets the position that represents the end of file.
         /// </summary>
+        /// <value>The position that represents the end of file.</value>
         public static readonly LinePragma EOF = new LinePragma(int.MaxValue, int.MaxValue);
     }
 }
