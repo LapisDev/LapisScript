@@ -1,0 +1,602 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BranchedReader
+   | LapisScript Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BranchedReader
+   | LapisScript Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Script.Parser.Lexical.BranchedReader">
+  
+  
+  <h1 id="Lapis_Script_Parser_Lexical_BranchedReader" data-uid="Lapis.Script.Parser.Lexical.BranchedReader" class="text-break">Class BranchedReader
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a string reader that can create branches.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BranchedReader</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Script.Parser.Lexical.html">Lapis.Script.Parser.Lexical</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Script.Parser.dll</h6>
+  <h5 id="Lapis_Script_Parser_Lexical_BranchedReader_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class BranchedReader : Object, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_BranchedReader__ctor_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.#ctor*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_BranchedReader__ctor_System_String_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.#ctor(System.String)">BranchedReader(String)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html">BranchedReader</a> class that reads from the specified string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BranchedReader(string s)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>The string to which the <a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html">BranchedReader</a> should be initialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_BranchedReader_Line_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Line*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_BranchedReader_Line" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Line">Line</h4>
+  <div class="markdown level1 summary"><p>Gets the line number of the current reader in the string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Line { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The line number of the current reader in the string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_BranchedReader_Position_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Position*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_BranchedReader_Position" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Position">Position</h4>
+  <div class="markdown level1 summary"><p>Gets the position of the current reader in the string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Position { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The position of the current reader in the string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_BranchedReader_Span_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Span*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_BranchedReader_Span" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Span">Span</h4>
+  <div class="markdown level1 summary"><p>Gets the position of the current reader in the current line of the string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Span { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The position of the current reader in the current line of the string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_BranchedReader_Dispose_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Dispose*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_BranchedReader_Dispose" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Releases all resources used by the <a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html">BranchedReader</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <h5 id="Lapis_Script_Parser_Lexical_BranchedReader_Dispose_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Call <a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html#Lapis_Script_Parser_Lexical_BranchedReader_Dispose">Dispose()</a> when you are finished using the <a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html">BranchedReader</a>. The <a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html#Lapis_Script_Parser_Lexical_BranchedReader_Dispose">Dispose()</a> method leaves the <a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html">BranchedReader</a> in an unusable state.</p>
+</div>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_BranchedReader_HasSameRoot_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.HasSameRoot*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_BranchedReader_HasSameRoot_Lapis_Script_Parser_Lexical_BranchedReader_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.HasSameRoot(Lapis.Script.Parser.Lexical.BranchedReader)">HasSameRoot(BranchedReader)</h4>
+  <div class="markdown level1 summary"><p>Returns a value indicating whether the reader has the same root reader as another specified branch. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasSameRoot(BranchedReader branch)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html">BranchedReader</a></td>
+        <td><span class="parametername">branch</span></td>
+        <td><p>The specified branch.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the lexer has the same root reader as <code data-dev-comment-type="paramref">branch</code>; otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>The current reader is closed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_BranchedReader_Merge_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Merge*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_BranchedReader_Merge_Lapis_Script_Parser_Lexical_BranchedReader_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Merge(Lapis.Script.Parser.Lexical.BranchedReader)">Merge(BranchedReader)</h4>
+  <div class="markdown level1 summary"><p>Merges the reader to the state of another specified branch, and returns a string that contains the characters between the positions of the current reader and <code data-dev-comment-type="paramref">branch</code>.  </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Merge(BranchedReader branch)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html">BranchedReader</a></td>
+        <td><span class="parametername">branch</span></td>
+        <td><p>The specified branch.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string that contains the characters between the positions of the current reader and <code data-dev-comment-type="paramref">branch</code> if the current reader is ahead of <code data-dev-comment-type="paramref">branch</code>; A empty string if the current reader and <code data-dev-comment-type="paramref">branch</code> are in the same position; <span class="xref">null</span> if the current reader is behind <code data-dev-comment-type="paramref">branch</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>The current reader is closed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>The reader has a different root with the specified branch.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_BranchedReader_NewBranch_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.NewBranch*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_BranchedReader_NewBranch" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.NewBranch">NewBranch()</h4>
+  <div class="markdown level1 summary"><p>Creates a new branch from the reader. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BranchedReader NewBranch()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html">BranchedReader</a></td>
+        <td><p>The branch created from the reader.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>The current reader is closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_BranchedReader_Peek_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Peek*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_BranchedReader_Peek" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Peek">Peek()</h4>
+  <div class="markdown level1 summary"><p>Returns the next available character but does not consume it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public char Peek()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><p>The next character to be read, or <code>&apos;\0&apos;</code> if no more characters are available.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>The current reader is closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_BranchedReader_Read_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Read*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_BranchedReader_Read" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Read">Read()</h4>
+  <div class="markdown level1 summary"><p>Reads the next character from the input string and advances the character position by one character.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public char Read()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><p>The next character from the underlying string, or <code>&apos;\0&apos;</code> if no more characters are available.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>The current reader is closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_BranchedReader_Read_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Read*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_BranchedReader_Read_System_Int32_" data-uid="Lapis.Script.Parser.Lexical.BranchedReader.Read(System.Int32)">Read(Int32)</h4>
+  <div class="markdown level1 summary"><p>Reads a block of characters from the input string and advances the character position by <code data-dev-comment-type="paramref">length</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Read(int length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">length</span></td>
+        <td><p>The number of characters to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string that contains the characters read from the current source.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>The current reader is closed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">length</code> is zero or negative.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

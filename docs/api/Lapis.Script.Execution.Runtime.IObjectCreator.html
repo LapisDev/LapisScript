@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IObjectCreator
+   | LapisScript Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IObjectCreator
+   | LapisScript Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator">
+  
+  
+  <h1 id="Lapis_Script_Execution_Runtime_IObjectCreator" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator" class="text-break">Interface IObjectCreator
+  </h1>
+  <div class="markdown level0 summary"><p>Represents an object creator used by the runtime context.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Script.Execution.Runtime.html">Lapis.Script.Execution.Runtime</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Script.Execution.dll</h6>
+  <h5 id="Lapis_Script_Execution_Runtime_IObjectCreator_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IObjectCreator</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_IObjectCreator_CreateArray_" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator.CreateArray*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_IObjectCreator_CreateArray_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_Collections_Generic_List_Lapis_Script_Execution_Runtime_ScriptObjects_IScriptObject__" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator.CreateArray(Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext,System.Collections.Generic.List{Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject})">CreateArray(RuntimeContext, List&lt;IScriptObject&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create an array object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IScriptObject CreateArray(RuntimeContext context, List&lt;IScriptObject&gt; items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The runtime context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List&lt;Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject&gt;</span></td>
+        <td><span class="parametername">items</span></td>
+        <td><p>The elements in the array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a></td>
+        <td><p>The array object with the elements <code data-dev-comment-type="paramref">items</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_IObjectCreator_CreateClass_" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator.CreateClass*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_IObjectCreator_CreateClass_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_String_Lapis_Script_Execution_Runtime_ScriptObjects_IClassObject_Lapis_Script_Execution_Ast_Members_MemberCollection_" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator.CreateClass(Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext,System.String,Lapis.Script.Execution.Runtime.ScriptObjects.IClassObject,Lapis.Script.Execution.Ast.Members.MemberCollection)">CreateClass(RuntimeContext, String, IClassObject, MemberCollection)</h4>
+  <div class="markdown level1 summary"><p>Create a class object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IClassObject CreateClass(RuntimeContext context, string name, IClassObject super, MemberCollection members)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The runtime context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the class.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IClassObject.html">IClassObject</a></td>
+        <td><span class="parametername">super</span></td>
+        <td><p>The super class.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Members.MemberCollection.html">MemberCollection</a></td>
+        <td><span class="parametername">members</span></td>
+        <td><p>The members of the class.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IClassObject.html">IClassObject</a></td>
+        <td><p>The class object with the name <code data-dev-comment-type="paramref">name</code>, the super class <code data-dev-comment-type="paramref">super</code> and the members <code data-dev-comment-type="paramref">members</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_IObjectCreator_CreateFunction_" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator.CreateFunction*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_IObjectCreator_CreateFunction_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_Lapis_Script_Execution_Ast_ParameterCollection_Lapis_Script_Execution_Ast_Statements_StatementCollection_" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator.CreateFunction(Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext,Lapis.Script.Execution.Ast.ParameterCollection,Lapis.Script.Execution.Ast.Statements.StatementCollection)">CreateFunction(RuntimeContext, ParameterCollection, StatementCollection)</h4>
+  <div class="markdown level1 summary"><p>Create a function object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IFunctionObject CreateFunction(RuntimeContext context, ParameterCollection parameters, StatementCollection statements)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The runtime context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.ParameterCollection.html">ParameterCollection</a></td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters of the function.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Statements.StatementCollection.html">StatementCollection</a></td>
+        <td><span class="parametername">statements</span></td>
+        <td><p>The statements in the function body.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IFunctionObject.html">IFunctionObject</a></td>
+        <td><p>The function object with the parameters <code data-dev-comment-type="paramref">parameters</code> and the statements <code data-dev-comment-type="paramref">statements</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_IObjectCreator_CreateObject_" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator.CreateObject*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_IObjectCreator_CreateObject_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_Lapis_Script_Execution_Ast_Expressions_Expression___" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator.CreateObject(Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,Lapis.Script.Execution.Ast.Expressions.Expression}})">CreateObject(RuntimeContext, IEnumerable&lt;KeyValuePair&lt;String, Expression&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create an object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IScriptObject CreateObject(RuntimeContext context, IEnumerable&lt;KeyValuePair&lt;string, Expression&gt;&gt; members)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The runtime context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, Lapis.Script.Execution.Ast.Expressions.Expression&gt;&gt;</span></td>
+        <td><span class="parametername">members</span></td>
+        <td><p>The collection whose elements are the pairs of the member name and the value expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a></td>
+        <td><p>The object with the members <code data-dev-comment-type="paramref">members</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_IObjectCreator_CreatePrimitive_" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator.CreatePrimitive*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_IObjectCreator_CreatePrimitive_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_Object_" data-uid="Lapis.Script.Execution.Runtime.IObjectCreator.CreatePrimitive(Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext,System.Object)">CreatePrimitive(RuntimeContext, Object)</h4>
+  <div class="markdown level1 summary"><p>Create an object of the primitive type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IScriptObject CreatePrimitive(RuntimeContext context, object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The runtime context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a></td>
+        <td><p>The primitive object with the value <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

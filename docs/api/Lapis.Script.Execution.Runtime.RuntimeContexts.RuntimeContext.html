@@ -1,0 +1,630 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class RuntimeContext
+   | LapisScript Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class RuntimeContext
+   | LapisScript Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext">
+  
+  
+  <h1 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext" class="text-break">Class RuntimeContext
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a runtime context.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">RuntimeContext</span></div>
+  </div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Execution.Interactive.InteractiveContext.html">InteractiveContext</a></div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.BlockContext.html">BlockContext</a></div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.FunctionContext.html">FunctionContext</a></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.html">Lapis.Script.Execution.Runtime.RuntimeContexts</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Script.Execution.dll</h6>
+  <h5 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RuntimeContext : Object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext__ctor_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.#ctor*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext__ctor_Lapis_Script_Execution_Runtime_IMemoryCreator_Lapis_Script_Execution_Runtime_IObjectCreator_Lapis_Script_Execution_Runtime_IOperatorCalculator_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.#ctor(Lapis.Script.Execution.Runtime.IMemoryCreator,Lapis.Script.Execution.Runtime.IObjectCreator,Lapis.Script.Execution.Runtime.IOperatorCalculator)">RuntimeContext(IMemoryCreator, IObjectCreator, IOperatorCalculator)</h4>
+  <div class="markdown level1 summary"><p>Initialize a new instance of the <a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a> class using the specified parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RuntimeContext(IMemoryCreator memoryCreator, IObjectCreator objectCreator, IOperatorCalculator operators)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.IMemoryCreator.html">IMemoryCreator</a></td>
+        <td><span class="parametername">memoryCreator</span></td>
+        <td><p>The variable memory creator used by the context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.IObjectCreator.html">IObjectCreator</a></td>
+        <td><span class="parametername">objectCreator</span></td>
+        <td><p>The object creator used by the context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.IOperatorCalculator.html">IOperatorCalculator</a></td>
+        <td><span class="parametername">operators</span></td>
+        <td><p>The calculater containing the operators used by the context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext__ctor_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.#ctor*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext__ctor_Lapis_Script_Execution_Runtime_IVariableMemory_Lapis_Script_Execution_Runtime_IMemoryCreator_Lapis_Script_Execution_Runtime_IObjectCreator_Lapis_Script_Execution_Runtime_IOperatorCalculator_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.#ctor(Lapis.Script.Execution.Runtime.IVariableMemory,Lapis.Script.Execution.Runtime.IMemoryCreator,Lapis.Script.Execution.Runtime.IObjectCreator,Lapis.Script.Execution.Runtime.IOperatorCalculator)">RuntimeContext(IVariableMemory, IMemoryCreator, IObjectCreator, IOperatorCalculator)</h4>
+  <div class="markdown level1 summary"><p>Initialize a new instance of the <a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a> class using the specified parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RuntimeContext(IVariableMemory memory, IMemoryCreator memoryCreator, IObjectCreator objectCreator, IOperatorCalculator operators)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.IVariableMemory.html">IVariableMemory</a></td>
+        <td><span class="parametername">memory</span></td>
+        <td><p>The variable memory used by the context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.IMemoryCreator.html">IMemoryCreator</a></td>
+        <td><span class="parametername">memoryCreator</span></td>
+        <td><p>The variable memory creator used by the context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.IObjectCreator.html">IObjectCreator</a></td>
+        <td><span class="parametername">objectCreator</span></td>
+        <td><p>The object creator used by the context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.IOperatorCalculator.html">IOperatorCalculator</a></td>
+        <td><span class="parametername">operators</span></td>
+        <td><p>The calculater containing the operators used by the context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_Class_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.Class*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_Class" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.Class">Class</h4>
+  <div class="markdown level1 summary"><p>Gets the class to which the scope belongs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IClassObject Class { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IClassObject.html">IClassObject</a></td>
+        <td><p>The class of the scope.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_Memory_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.Memory*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_Memory" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.Memory">Memory</h4>
+  <div class="markdown level1 summary"><p>Gets the variable memory used by the context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IVariableMemory Memory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.IVariableMemory.html">IVariableMemory</a></td>
+        <td><p>The variable memory used by the context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_MemoryCreator_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.MemoryCreator*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_MemoryCreator" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.MemoryCreator">MemoryCreator</h4>
+  <div class="markdown level1 summary"><p>Gets the variable memory creator used by the context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IMemoryCreator MemoryCreator { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.IMemoryCreator.html">IMemoryCreator</a></td>
+        <td><p>The variable memory creator used by the context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_ObjectCreator_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.ObjectCreator*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_ObjectCreator" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.ObjectCreator">ObjectCreator</h4>
+  <div class="markdown level1 summary"><p>Gets the object creator used by the context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IObjectCreator ObjectCreator { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.IObjectCreator.html">IObjectCreator</a></td>
+        <td><p>The object creator used by the context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_Operators_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.Operators*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_Operators" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.Operators">Operators</h4>
+  <div class="markdown level1 summary"><p>Gets the calculater containing the operators used by the context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IOperatorCalculator Operators { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.IOperatorCalculator.html">IOperatorCalculator</a></td>
+        <td><p>The calculater containing the operators used by the context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_Scope_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.Scope*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_Scope" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.Scope">Scope</h4>
+  <div class="markdown level1 summary"><p>Gets the parent scope of the context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual RuntimeContext Scope { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a></td>
+        <td><p>The parent scope of the context.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_This_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.This*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_This" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.This">This</h4>
+  <div class="markdown level1 summary"><p>Gets the <code>this</code> reference bound in the scope.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IScriptObject This { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a></td>
+        <td><p>The <code>this</code> reference bound in the scope.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_Assign_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.Assign*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_Assign_Lapis_Script_Execution_Ast_Expressions_Expression_Lapis_Script_Execution_Runtime_ScriptObjects_IScriptObject_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.Assign(Lapis.Script.Execution.Ast.Expressions.Expression,Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject)">Assign(Expression, IScriptObject)</h4>
+  <div class="markdown level1 summary"><p>Performs an assignment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Assign(Expression expression, IScriptObject value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The left expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The right value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">expression</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeException.html">RuntimeException</a></td>
+        <td><p>An exception occurred during the assignment.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_EvaluateExpression_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.EvaluateExpression*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_EvaluateExpression_Lapis_Script_Execution_Ast_Expressions_Expression_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.EvaluateExpression(Lapis.Script.Execution.Ast.Expressions.Expression)">EvaluateExpression(Expression)</h4>
+  <div class="markdown level1 summary"><p>Evaluates the expression and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IScriptObject EvaluateExpression(Expression expression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The expression to be evaluated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a></td>
+        <td><p>The result of <code data-dev-comment-type="paramref">expression</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">expression</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeException.html">RuntimeException</a></td>
+        <td><p>An exception occurred during the evaluation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_ExecuteStatements_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.ExecuteStatements*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_ExecuteStatements_Lapis_Script_Execution_Ast_Statements_StatementCollection_" data-uid="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.ExecuteStatements(Lapis.Script.Execution.Ast.Statements.StatementCollection)">ExecuteStatements(StatementCollection)</h4>
+  <div class="markdown level1 summary"><p>Executes the statements and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExecuteResult ExecuteStatements(StatementCollection statements)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Statements.StatementCollection.html">StatementCollection</a></td>
+        <td><span class="parametername">statements</span></td>
+        <td><p>The statements to be executed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.ExecuteResult.html">ExecuteResult</a></td>
+        <td><p>The execution result of <code data-dev-comment-type="paramref">statements</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">statements</code> is <span class="xref">null</span>, or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeException.html">RuntimeException</a></td>
+        <td><p>An exception occurred during the execution of the statements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

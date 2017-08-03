@@ -1,0 +1,1132 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class LexicalRule
+   | LapisScript Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class LexicalRule
+   | LapisScript Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Script.Parser.Lexical.LexicalRule">
+  
+  
+  <h1 id="Lapis_Script_Parser_Lexical_LexicalRule" data-uid="Lapis.Script.Parser.Lexical.LexicalRule" class="text-break">Class LexicalRule
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a lexical rule. This class is abstract.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">LexicalRule</span></div>
+  </div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Parser.Lexical.AlternateLexicalRule.html">AlternateLexicalRule</a></div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Parser.Lexical.AnyCharLexicalRule.html">AnyCharLexicalRule</a></div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Parser.Lexical.CharRangeLexicalRule.html">CharRangeLexicalRule</a></div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Parser.Lexical.CharSetLexicalRule.html">CharSetLexicalRule</a></div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Parser.Lexical.ConcatenateLexicalRule.html">ConcatenateLexicalRule</a></div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Parser.Lexical.EmptyLexicalRule.html">EmptyLexicalRule</a></div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Parser.Lexical.NegativeCharRangeLexicalRule.html">NegativeCharRangeLexicalRule</a></div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Parser.Lexical.NegativeCharSetLexicalRule.html">NegativeCharSetLexicalRule</a></div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Parser.Lexical.PredicateLexicalRule.html">PredicateLexicalRule</a></div>
+      <div class="level2"><a class="xref" href="Lapis.Script.Parser.Lexical.RepeatingLexicalRule.html">RepeatingLexicalRule</a></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Script.Parser.Lexical.html">Lapis.Script.Parser.Lexical</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Script.Parser.dll</h6>
+  <h5 id="Lapis_Script_Parser_Lexical_LexicalRule_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class LexicalRule : Object</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_AnyChar_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.AnyChar*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_AnyChar" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.AnyChar">AnyChar</h4>
+  <div class="markdown level1 summary"><p>Gets the lexical rule that matches any character except <code>&apos;\0&apos;</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule AnyChar { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The lexical rule that matches any character except <code>&apos;\0&apos;</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_Empty_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Empty*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_Empty" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Empty">Empty</h4>
+  <div class="markdown level1 summary"><p>Gets the lexical rule that is a placeholder for an empty string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule Empty { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The lexical rule that is a placeholder for an empty string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_Char_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Char*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_Char_System_Char_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Char(System.Char)">Char(Char)</h4>
+  <div class="markdown level1 summary"><p>Creates a lexical rule that matches the specified character.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule Char(char c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">c</span></td>
+        <td><p>The specified character.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The created lexical rule that matches <code data-dev-comment-type="paramref">c</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">c</code> is <code>&apos;\0&apos;</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_Chars_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Chars*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_Chars_System_String_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Chars(System.String)">Chars(String)</h4>
+  <div class="markdown level1 summary"><p>Creates a lexical rule that matches the specified set of characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule Chars(string s)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>The specified set of characters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The created lexical rule that matches <code data-dev-comment-type="paramref">s</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">s</code> is <span class="xref">null</span> or an empty string, or it contains <code>&apos;\0&apos;</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_CharWhen_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.CharWhen*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_CharWhen_System_Predicate_System_Char__" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.CharWhen(System.Predicate{System.Char})">CharWhen(Predicate&lt;Char&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a lexical rule that matches characters that meets the specified criteria.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule CharWhen(Predicate&lt;char&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>The specified criteria that the character should meet.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The created lexical rule that matches characters that meets <code data-dev-comment-type="paramref">predicate</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">predicate</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_Concat_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Concat*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_Concat_Lapis_Script_Parser_Lexical_LexicalRule_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Concat(Lapis.Script.Parser.Lexical.LexicalRule)">Concat(LexicalRule)</h4>
+  <div class="markdown level1 summary"><p>Creates the concatenation of the current lexical rule and another.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LexicalRule Concat(LexicalRule rule)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><span class="parametername">rule</span></td>
+        <td><p>The other lexical rule.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The concatenation of the current lexical rule and the other.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">rule</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_Literal_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Literal*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_Literal_System_String_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Literal(System.String)">Literal(String)</h4>
+  <div class="markdown level1 summary"><p>Creates a lexical rule that matches the specified string literally.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule Literal(string s)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>The specified string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The created lexical rule that matches <code data-dev-comment-type="paramref">s</code> literally.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">s</code> is <span class="xref">null</span> or an empty string, or it contains <code>&apos;\0&apos;</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_Match_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Match*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_Match_Lapis_Script_Parser_Lexical_BranchedReader_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Match(Lapis.Script.Parser.Lexical.BranchedReader)">Match(BranchedReader)</h4>
+  <div class="markdown level1 summary"><p>Returns a value indicating whether the next character matches the lexical rule.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract bool Match(BranchedReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html">BranchedReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td><p>The <a class="xref" href="Lapis.Script.Parser.Lexical.BranchedReader.html">BranchedReader</a> that provides the input character.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the next character matches the lexical rule; otherwise <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">reader</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_NotChar_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.NotChar*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_NotChar_System_Char_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.NotChar(System.Char)">NotChar(Char)</h4>
+  <div class="markdown level1 summary"><p>Creates a lexical rule that matches characters except the specified character.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule NotChar(char c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">c</span></td>
+        <td><p>The specified character.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The created lexical rule that matches characters except <code data-dev-comment-type="paramref">c</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">c</code> is <code>&apos;\0&apos;</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_NotChars_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.NotChars*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_NotChars_System_String_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.NotChars(System.String)">NotChars(String)</h4>
+  <div class="markdown level1 summary"><p>Creates a lexical rule that matches characters not in the specified set of characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule NotChars(string s)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>The specified set of characters.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The created lexical rule that matches characters not in <code data-dev-comment-type="paramref">s</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">s</code> is <span class="xref">null</span> or an empty string, or it contains <code>&apos;\0&apos;</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_NotRange_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.NotRange*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_NotRange_System_Char_System_Char_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.NotRange(System.Char,System.Char)">NotRange(Char, Char)</h4>
+  <div class="markdown level1 summary"><p>Creates a lexical rule that matches characters not in the specified range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule NotRange(char from, char to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">from</span></td>
+        <td><p>The first character of the specified range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">to</span></td>
+        <td><p>The last character of the specified range..</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The created lexical rule that matches characters not in the specified range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The parameter is <code>&apos;\0&apos;</code>, or <code data-dev-comment-type="paramref">from</code> is greater than <code data-dev-comment-type="paramref">to</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_Optional_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Optional*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_Optional" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Optional">Optional()</h4>
+  <div class="markdown level1 summary"><p>Creates the same lexical rule as the current lexical rule but it is optional.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LexicalRule Optional()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The same lexical rule as the current lexical rule but it is optional.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_Or_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Or*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_Or_Lapis_Script_Parser_Lexical_LexicalRule_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Or(Lapis.Script.Parser.Lexical.LexicalRule)">Or(LexicalRule)</h4>
+  <div class="markdown level1 summary"><p>Creates the union of the current lexical rule and another.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LexicalRule Or(LexicalRule rule)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><span class="parametername">rule</span></td>
+        <td><p>The other lexical rule.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The union of the current lexical rule and the other.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">rule</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_Range_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Range*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_Range_System_Char_System_Char_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Range(System.Char,System.Char)">Range(Char, Char)</h4>
+  <div class="markdown level1 summary"><p>Creates a lexical rule that matches the specified range of characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule Range(char from, char to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">from</span></td>
+        <td><p>The first character of the specified range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">to</span></td>
+        <td><p>The last character of the specified range..</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The created lexical rule that matches characters in the specified range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The parameter is <code>&apos;\0&apos;</code>, or <code data-dev-comment-type="paramref">from</code> is greater than <code data-dev-comment-type="paramref">to</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_Repeat_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Repeat*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_Repeat" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Repeat">Repeat()</h4>
+  <div class="markdown level1 summary"><p>Creates the repetition of the current lexical rule with no limits of repetition times.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LexicalRule Repeat()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The repetition of the current lexical rule with no limits of repetition times.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_Repeat_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Repeat*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_Repeat_System_Int32_System_Int32_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.Repeat(System.Int32,System.Int32)">Repeat(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates the repetition of the current lexical rule with the specified lower and upper limits of repetition times.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LexicalRule Repeat(int min, int max)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>The minimum times of the repetition. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>The maximum times of the repetition. <code>0</code> if there is no upper limit.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The repetition of the current lexical rule with repetition times of the minimum <code data-dev-comment-type="paramref">min</code> and the maximum <code data-dev-comment-type="paramref">max</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The parameter is negative, or <code data-dev-comment-type="paramref">min</code> is greater than <code data-dev-comment-type="paramref">max</code> when <code data-dev-comment-type="paramref">max</code> is not <code>0</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_op_Addition_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.op_Addition*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_op_Addition_Lapis_Script_Parser_Lexical_LexicalRule_Lapis_Script_Parser_Lexical_LexicalRule_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.op_Addition(Lapis.Script.Parser.Lexical.LexicalRule,Lapis.Script.Parser.Lexical.LexicalRule)">Addition(LexicalRule, LexicalRule)</h4>
+  <div class="markdown level1 summary"><p>Creates the concatenation of two lexical rules.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule operator +(LexicalRule left, LexicalRule right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first lexical rule.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second lexical rule.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The concatenation of the two lexical rules.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Lexical_LexicalRule_op_BitwiseOr_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.op_BitwiseOr*"></a>
+  <h4 id="Lapis_Script_Parser_Lexical_LexicalRule_op_BitwiseOr_Lapis_Script_Parser_Lexical_LexicalRule_Lapis_Script_Parser_Lexical_LexicalRule_" data-uid="Lapis.Script.Parser.Lexical.LexicalRule.op_BitwiseOr(Lapis.Script.Parser.Lexical.LexicalRule,Lapis.Script.Parser.Lexical.LexicalRule)">BitwiseOr(LexicalRule, LexicalRule)</h4>
+  <div class="markdown level1 summary"><p>Creates the union of two lexical rules.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LexicalRule operator |(LexicalRule left, LexicalRule right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first lexical rule.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second lexical rule.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.LexicalRule.html">LexicalRule</a></td>
+        <td><p>The union of the two lexical rules.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

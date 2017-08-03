@@ -74,8 +74,8 @@ calculator.TryEvaluate(str, out result);
 Console.WriteLine(result == 1.0 * 5.0 + 2.0 * 3.0 / 5.0 - 3.0); // True
 ```
 
-## The Intepreter
-[ScriptSampleApp](samples/ScriptSampleApp) is an intepreter app. The syntax trees and runtime contexts are in [Lapis.Script.Execution](src/Lapis.Script.Execution). Below are example scripts reflecting the features of the script language.
+## The Interpreter
+[ScriptSampleApp](samples/ScriptSampleApp) is an interpreter app. The syntax trees and runtime contexts are in [Lapis.Script.Execution](src/Lapis.Script.Execution). Below are example scripts reflecting the features of the script language.
 
 ### Flow Control
 Condition statements:

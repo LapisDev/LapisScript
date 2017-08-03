@@ -1,0 +1,2017 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/Projects/Lapis.Script/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.ArrayExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.ArrayExpression.html",
+          "hash": "iP0eUlJzEzUO66XLcAlS+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.ArrayIndexerExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.ArrayIndexerExpression.html",
+          "hash": "0yKPyRuo2vnQoXma9K44oQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.AssignExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.AssignExpression.html",
+          "hash": "ZpeAdobFAwRRC9dFNirm2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.BinaryOperatorExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.BinaryOperatorExpression.html",
+          "hash": "gvPlughDy6gOOsW2LUaGPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.Expression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.Expression.html",
+          "hash": "2fqw0qE6k8AGtPvpESemPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.ExpressionCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.ExpressionCollection.html",
+          "hash": "rjpwCa+mWtCwtTVMfAwFqg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.FunctionExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.FunctionExpression.html",
+          "hash": "CMKoiMycWHMwgR2agbSNUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.FunctionInvokeExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.FunctionInvokeExpression.html",
+          "hash": "q30VC4M6UswEq1xwaYTDhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.MemberReferenceExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.MemberReferenceExpression.html",
+          "hash": "Uqtkh8HBJDCo/8EAScOVaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.NewExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.NewExpression.html",
+          "hash": "ePEDzNvroS/AK0/1bblqrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.ObjectExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.ObjectExpression.html",
+          "hash": "WXJhb7KW3wb+KS3ykve7Rw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.PostfixOperatorExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.PostfixOperatorExpression.html",
+          "hash": "MhgAifzJn2ELKDXBJlytag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.PrefixOperatorExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.PrefixOperatorExpression.html",
+          "hash": "22k7v5J2NJgggBJ7kg8YQw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.PrimitiveExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.PrimitiveExpression.html",
+          "hash": "7lOWYNAVteISYUzxtzdBqA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.SuperReferenceExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.SuperReferenceExpression.html",
+          "hash": "Hq7+N6OIgqgqlN7Rg9ZjPA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.TernaryOperatorExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.TernaryOperatorExpression.html",
+          "hash": "UgPhedeWTkFgY7vN3d5Knw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.ThisReferenceExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.ThisReferenceExpression.html",
+          "hash": "Y+4p5R6qvwiLQEMNo7+4pA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.VariableReferenceExpression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.VariableReferenceExpression.html",
+          "hash": "OTHBDPlvxuxuLtqNrUha5A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Expressions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Expressions.html",
+          "hash": "nFrdUOm1CnOALW/f/gIVkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Members.Accessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Members.Accessor.html",
+          "hash": "o7OPot43He8JtORNU7hZ/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Members.Constructor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Members.Constructor.html",
+          "hash": "rj/TJc36t51Wo+wOY6HDpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Members.Field.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Members.Field.html",
+          "hash": "jvQXDfFtX6a+CxmIR33cog=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Members.Indexer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Members.Indexer.html",
+          "hash": "+qkJT3PLzr7qlvjbl8F+RA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Members.Member.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Members.Member.html",
+          "hash": "elQ2sRZRDMR6yHZT/TSnAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Members.MemberCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Members.MemberCollection.html",
+          "hash": "NqRJd5vCOyht4liqLrs0gA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Members.Method.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Members.Method.html",
+          "hash": "6XBatgokJKegNipClsl49g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Members.Modifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Members.Modifier.html",
+          "hash": "XzHlRFlt6IBnevfAVnI/Ag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Members.Property.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Members.Property.html",
+          "hash": "MUtBkgMOHHfMy2Ypb2goRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Members.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Members.html",
+          "hash": "Qg4cA0vLvITGGzim2YMunw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Parameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Parameter.html",
+          "hash": "U4mAm0PhBwNkePdlyxk/4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.ParameterCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.ParameterCollection.html",
+          "hash": "a7oos4IDlIgxk7/Xq/VvvQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.BlockStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.BlockStatement.html",
+          "hash": "cNKfe9aFeRgnXidTVOmHpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.BreakStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.BreakStatement.html",
+          "hash": "q4jAqESDds/DwsnpzOl9yA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.ClassDeclarationStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.ClassDeclarationStatement.html",
+          "hash": "qM9iCl6/IPtG7cShe2y5Ig=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.ContinueStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.ContinueStatement.html",
+          "hash": "4neHnhxRr3ns5TG77INNPA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.DoWhileStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.DoWhileStatement.html",
+          "hash": "US350i2b/LgFVYH7X6gVQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.ExpressionStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.ExpressionStatement.html",
+          "hash": "/46tl2Kt75exf8UAWT7oEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.ForStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.ForStatement.html",
+          "hash": "2jJSrTrNqHoYmGHjOY587Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.FunctionDeclarationStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.FunctionDeclarationStatement.html",
+          "hash": "MWQfEODHsGHq37sIA9X9uQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.GotoStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.GotoStatement.html",
+          "hash": "hxrPWVczUAicOKCGpO7QvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.IfStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.IfStatement.html",
+          "hash": "2veROxUeJmXsY3WgkVvRqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.LabelStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.LabelStatement.html",
+          "hash": "vSbgsp4c8Aevy5tamcABNQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.ReturnStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.ReturnStatement.html",
+          "hash": "gCzgm5MzQEz2VnZkBv5jFg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.Statement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.Statement.html",
+          "hash": "Dqh4eBjF74oAGf3t8kj3xA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.StatementCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.StatementCollection.html",
+          "hash": "h5bSJTA6j94sKbUTdcmuQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.SwitchCase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.SwitchCase.html",
+          "hash": "E3jhEw65nZEItvhfLUm7VA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.SwitchCaseCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.SwitchCaseCollection.html",
+          "hash": "GIvAFl6Im9JLsA39fvodyQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.SwitchStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.SwitchStatement.html",
+          "hash": "KaocqYwODJbtFtQ5++VN1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.VariableDeclarationStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.VariableDeclarationStatement.html",
+          "hash": "d8ObsWOulYfYPjb6A+r3qw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.WhileStatement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.WhileStatement.html",
+          "hash": "i+uXHL7M92w4k9gpzgkeEg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.Statements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.Statements.html",
+          "hash": "qnrCd4vsjFM4gD1RUx0s+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Ast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Ast.html",
+          "hash": "5nRTyO7hJBJ+GzZgRmjhJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Interactive.IConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Interactive.IConsole.html",
+          "hash": "fwDz/JtI86fWNLkz3tCNJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Interactive.InteractiveContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Interactive.InteractiveContext.html",
+          "hash": "VschriG+YOEWxkMVgP45/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Interactive.InteractiveInterpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Interactive.InteractiveInterpreter.html",
+          "hash": "kkNO4ejyB3YCDIergye3NQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Interactive.InteractiveMemory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Interactive.InteractiveMemory.html",
+          "hash": "F9bgoiMTIg8oK7U83cemPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Interactive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Interactive.html",
+          "hash": "i4ZocpLzJxMoPKGqhUgIMA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Interpreter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Interpreter.html",
+          "hash": "NDws7G4eBXw6UvVKDzrg/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Parsers.IParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Parsers.IParser.html",
+          "hash": "i+RBMPkDp3+colZW/4RprA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Parsers.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Parsers.Parser.html",
+          "hash": "BM4nNlQFKS6g83MBYR11rg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Parsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Parsers.html",
+          "hash": "JlOOWLJjGQ47GF2Gw5A9DQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.IMemoryCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.IMemoryCreator.html",
+          "hash": "LA38yHE98AlLFj+Vj+3k3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.IObjectCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.IObjectCreator.html",
+          "hash": "zTdvLt6IQLrvbJPtud1DaA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.IOperatorCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.IOperatorCalculator.html",
+          "hash": "Uxv4oC83V+HtGCsQ/LGAXg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.IVariableMemory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.IVariableMemory.html",
+          "hash": "NyHcEMcpddzWZ03QMe6Y7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ObjectCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ObjectCreator.html",
+          "hash": "YfaVoqGokssei2ylBgUSrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.OperatorDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.OperatorDictionary.html",
+          "hash": "CrH31f5TIlAJ7W7/xwvIng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.BlockContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.BlockContext.html",
+          "hash": "ZrNpFXW3X+3yTWckQIMHmg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.BlockType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.BlockType.html",
+          "hash": "KoWrcW9w6D+/fgEVX64fwQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.ExecuteResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.ExecuteResult.html",
+          "hash": "wWPxc69r7fWk4GK0ycchtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.FlowControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.FlowControl.html",
+          "hash": "R0cireZ1/VsKqvLYtrrFow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.FunctionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.FunctionContext.html",
+          "hash": "aLcizK6NUbdn2UO+NJcLHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.MethodContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.MethodContext.html",
+          "hash": "sJQ2zB9MB0pjBFR37tVrfw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html",
+          "hash": "hX0daf3SN6JJJ9yiBpmf9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeContexts.html",
+          "hash": "Gh8Dp7ZC1UEgQ7gF26aA1g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.RuntimeException.html",
+          "hash": "Zg1GP5fpWLrTdXQNPgxjnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IBooleanObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IBooleanObject.html",
+          "hash": "S9kzYTIEfhuTOpgyq8cc7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IClassObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IClassObject.html",
+          "hash": "Q52Q359790/vsvc+IsRLQw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IFunctionObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IFunctionObject.html",
+          "hash": "yTstWcjfLs849Ti15U7pkg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IIndexableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IIndexableObject.html",
+          "hash": "BTUas7vEUF6ypbUTfSbnhg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IMemberObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IMemberObject.html",
+          "hash": "UIkpLV9ioxmg8m5D69tj6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html",
+          "hash": "i9OvLpefsiRx9ddQS4sK7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.ISuperIndexableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.ISuperIndexableObject.html",
+          "hash": "0k1M9feNZPlNBHSBYVtOlw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.ISuperMemberObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.ISuperMemberObject.html",
+          "hash": "bgMxRv6Td2BRG8Ol9rrR0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeFunction.html",
+          "hash": "QdC2dF8h173eEmij49x6jA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.ArrayClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.ArrayClass.html",
+          "hash": "pkrOzGHmQc2FpSEeXqUO0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.ArrayObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.ArrayObject.html",
+          "hash": "nZ3na9qi6ePFvNcuwl3/Sw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.BooleanClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.BooleanClass.html",
+          "hash": "03L1oO/hDXpKsVbDzzoIDg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.BooleanObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.BooleanObject.html",
+          "hash": "fkzQVIUFKca/tLzQc6L/1g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.ExpandoObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.ExpandoObject.html",
+          "hash": "DkSzl4RI0bXMM23MKS9D2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.INumberObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.INumberObject.html",
+          "hash": "0irey8FegluELr6HZ/QdPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.IStringObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.IStringObject.html",
+          "hash": "563JQoS2jYiPIqn0j7Q1PQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.NumberClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.NumberClass.html",
+          "hash": "hk0LLCOUsUFid+WgmPO6Qg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.NumberObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.NumberObject.html",
+          "hash": "7XFZ2Hr0Ov20uDJ/RfQwDg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.ObjectClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.ObjectClass.html",
+          "hash": "icfhuAr1IxbjidWyhj+OBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.StringClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.StringClass.html",
+          "hash": "vL0c70BuSu7NdiLialyfqw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.StringObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.StringObject.html",
+          "hash": "9AWANwbnZHipvc93UU5HFA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects.html",
+          "hash": "ljX8xL7iOEJQfqev+reI0Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.BoundMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.BoundMethod.html",
+          "hash": "K8ayS1N2wnwg+1AcfTDgzg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ClassMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ClassMember.html",
+          "hash": "wKNGzk0dvH0B1ghTcDw3/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ClassMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ClassMethod.html",
+          "hash": "E2ASgf7pbGevkYTYvfRESg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ClassObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ClassObject.html",
+          "hash": "WDjRLCGckSAjEgLxiS00vg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.IndexerGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.IndexerGetter.html",
+          "hash": "es+Yb7vbOvugzWUPuTkvBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.IndexerSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.IndexerSetter.html",
+          "hash": "l66CfU1SAtaWRcHTVZIWAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.InstanceObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.InstanceObject.html",
+          "hash": "YoWnBvtSfY6WDle898F94g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeClass-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeClass-1.html",
+          "hash": "CWeRHZ+RioIoip8QyS5PtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeClass.html",
+          "hash": "zze7g0kVEw3y2aAaeklJZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeConstructor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeConstructor.html",
+          "hash": "c3MeKg8VzYgt41F/2UPb9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeInstance-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeInstance-1.html",
+          "hash": "Kv0s57kqwerodsmoiTiDrA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeInstance.html",
+          "hash": "7/CuXnrt7fAxPOkCX2cy9g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeMethod-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeMethod-1.html",
+          "hash": "Xt/sKWaPCAN9sY0g6U3dqw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.NativeMethod.html",
+          "hash": "OXKRwCTmKFC27Be1qQnK4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.PropertyGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.PropertyGetter.html",
+          "hash": "Eo+5WGelXiZYTZMGHOfSFA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.PropertySetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.PropertySetter.html",
+          "hash": "wuFFNmHUu1XyPtbWTEf6gA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ScriptClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ScriptClass.html",
+          "hash": "83uiwIW77VVIFX2kA8yr+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ScriptConstructor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ScriptConstructor.html",
+          "hash": "qPYqFirdy885vm6LorvhGA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ScriptMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.ScriptMethod.html",
+          "hash": "6/sBnjC2+QMQF7ttBS99Hw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.OOP.html",
+          "hash": "ibPSPKcv1QiaixUmZEYN0Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.ScriptFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.ScriptFunction.html",
+          "hash": "PvF5I+0VUpecC+tI0WZLoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.ScriptNull.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.ScriptNull.html",
+          "hash": "2to0x7UfwC5566f/NqH+iw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.ScriptObjects.html",
+          "hash": "6g8vkVJjfo8+jKGYh4FAfQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.VariableDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.VariableDictionary.html",
+          "hash": "HzRF+K5ZC7AGQ1nPW5Isxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.VariableDictionaryCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.VariableDictionaryCreator.html",
+          "hash": "xKb3z2SEfyWPnLaJZ3e+pw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.Runtime.html",
+          "hash": "HNYT2A1wRL7+1wdMvdfQhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Execution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Execution.html",
+          "hash": "bdKVnYjkr4YGwnBSaW7DfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.AlternateLexicalRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.AlternateLexicalRule.html",
+          "hash": "wlbcrR7XM5JqxkXLg79O/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.AnyCharLexicalRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.AnyCharLexicalRule.html",
+          "hash": "1G97EYQ+oOM3QwECm7yS6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.BranchedLexer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.BranchedLexer.html",
+          "hash": "y/0jd+LupH0SQUYiYivyqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.BranchedReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.BranchedReader.html",
+          "hash": "buARWe8p3UvSYeY2upK7sA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.CharRangeLexicalRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.CharRangeLexicalRule.html",
+          "hash": "SdyetncWeKpl+tgwjn9Nag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.CharSetLexicalRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.CharSetLexicalRule.html",
+          "hash": "4iCQPmMquKDvwFx8Nu91ig=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.ConcatenateLexicalRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.ConcatenateLexicalRule.html",
+          "hash": "VydpNRjqautV8GskMRv5Yg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.EmptyLexicalRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.EmptyLexicalRule.html",
+          "hash": "ljrNqVSzkJjNxB8Zh140Rg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.Lexeme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.Lexeme.html",
+          "hash": "qSnB+GsU1qM66yqMFlhd/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.Lexer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.Lexer.html",
+          "hash": "dcSH5RQ8YAe2fpHrMbCefQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.LexerBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.LexerBuilder.html",
+          "hash": "n7gmscac9lWKyA7SGlQlzw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.LexerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.LexerException.html",
+          "hash": "l9NRB9iswe7E6Xjv8UXR3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.LexicalRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.LexicalRule.html",
+          "hash": "Vctnec1kh/tjl9nTSCqa3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.LinePragma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.LinePragma.html",
+          "hash": "v9XOjtNSqWREa9AyEaj0ww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.NegativeCharRangeLexicalRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.NegativeCharRangeLexicalRule.html",
+          "hash": "Pb579Jo1a/s2DKNT1kgEgg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.NegativeCharSetLexicalRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.NegativeCharSetLexicalRule.html",
+          "hash": "rgAqGVI6+fSG5Rol4b6+mQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.PredicateLexicalRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.PredicateLexicalRule.html",
+          "hash": "W15v/MzfzBLo+M0AozS9qQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.RepeatingLexicalRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.RepeatingLexicalRule.html",
+          "hash": "dcULISBB8pHIBI1SJ6evWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.Token.html",
+          "hash": "RWN71O2mhIIdbH9HZwhOQw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Lexical.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Lexical.html",
+          "hash": "1VEyvdc6FXSYhH8AFtQJJw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.AlternateParsingRule-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.AlternateParsingRule-1.html",
+          "hash": "HgcUOqR5lO3UANCio5a0Gg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.ConcatenateParsingRule-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.ConcatenateParsingRule-3.html",
+          "hash": "SeiYsJc89y3HOovE4nWn3w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.CustomParsingRule-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.CustomParsingRule-1.html",
+          "hash": "KmTp+bEXSy/ZJWjkIxUTWQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.EmptyParsingRule-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.EmptyParsingRule-1.html",
+          "hash": "4+ARkYs0ft0Cji4RGTEhow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.MappingParsingRule-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.MappingParsingRule-2.html",
+          "hash": "PoeR+pkXvD74q4xFIc9KNg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.ParserException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.ParserException.html",
+          "hash": "GQqm6I0f0xsJDgJxnTbSmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.ParsingRule-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.ParsingRule-1.html",
+          "hash": "q1B8oDI4+M+Hw+CmJRbpaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.ParsingRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.ParsingRule.html",
+          "hash": "ueNGYhpL9HQujicYfOqtGw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.ParsingRuleContainer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.ParsingRuleContainer-1.html",
+          "hash": "6egoDtzaVTVVcvZ5bcL4lQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.RepeatingParsingRule-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.RepeatingParsingRule-2.html",
+          "hash": "pMB9ADkWyzybfqWfex2YCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.TokenParsingRule-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.TokenParsingRule-1.html",
+          "hash": "Ap5DC0+vxlIhXgP+v+L7rA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Script.Parser.Parsing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Script.Parser.Parsing.html",
+          "hash": "lvc7Q+z4LpXGBGTjLx+qRg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "bnsRXpTRLwQu7Vt15w1aDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "DdopjCPQSHRziOYaGBGHcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/interpreter.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/interpreter.html",
+          "hash": "Cz6m5Wl7nf9CWJNMiLMvcQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/parser.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/parser.html",
+          "hash": "nMdxr/5mauNsyyVv/XGdKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BVDN+2IThitA9NHlHGwvQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "0vAMsazBCa6v4El/yNkZxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "bsbDyqsXxAPaNkHBQGjpew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "RestApiDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {}
+}

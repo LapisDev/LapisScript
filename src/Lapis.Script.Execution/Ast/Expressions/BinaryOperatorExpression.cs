@@ -14,7 +14,7 @@ using System.Text;
 namespace Lapis.Script.Execution.Ast.Expressions
 {
     /// <summary>
-    /// 表示二元运算符的表达式。
+    /// Represents a binary operator expression in the syntax tree.
     /// </summary>
     public class BinaryOperatorExpression : Expression
     {

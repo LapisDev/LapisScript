@@ -159,7 +159,7 @@ namespace Lapis.Script.Execution.Runtime
         /// <param name="context">The runtime context.</param>
         /// <param name="name">The variable name.</param>
         /// <param name="value">The initial value of the variable.</param>
-        /// <exception cref="InvalidOperationException">The variable has not been declared in hoisting. <see cref="HoistingDecalreVariable"> should be called first.</exception>     
+        /// <exception cref="InvalidOperationException">The variable has not been declared in hoisting. <see cref="HoistingDecalreVariable"/> should be called first.</exception>     
         void IVariableMemory.DecalreVariable(RuntimeContext context, string name, IScriptObject value)
         {
             DecalreVariable(context, name, value);
@@ -171,7 +171,7 @@ namespace Lapis.Script.Execution.Runtime
         /// <param name="context">The runtime context.</param>
         /// <param name="name">The variable name.</param>
         /// <param name="value">The initial value of the variable.</param>
-        /// <exception cref="InvalidOperationException">The variable has not been declared in hoisting. <see cref="HoistingDecalreVariable"> should be called first.</exception>     
+        /// <exception cref="InvalidOperationException">The variable has not been declared in hoisting. <see cref="HoistingDecalreVariable"/> should be called first.</exception>     
         protected virtual void DecalreVariable(RuntimeContext context, string name, IScriptObject value)
         {
             if (this.Variables.ContainsKey(name))
@@ -191,7 +191,7 @@ namespace Lapis.Script.Execution.Runtime
         /// <param name="context">The runtime context.</param>
         /// <param name="name">The function name.</param>
         /// <param name="value">The function object.</param>
-        /// <exception cref="InvalidOperationException">The function has not been declared in hoisting. <see cref="HoistingDecalreFunction"> should be called first.</exception>     
+        /// <exception cref="InvalidOperationException">The function has not been declared in hoisting. <see cref="HoistingDecalreFunction"/> should be called first.</exception>     
         void IVariableMemory.DecalreFunction(RuntimeContext context, string name, IFunctionObject value)
         {
             DecalreFunction(context, name, value);
@@ -203,7 +203,7 @@ namespace Lapis.Script.Execution.Runtime
         /// <param name="context">The runtime context.</param>
         /// <param name="name">The function name.</param>
         /// <param name="value">The function object.</param>
-        /// <exception cref="InvalidOperationException">The function has not been declared in hoisting. <see cref="HoistingDecalreFunction"> should be called first.</exception>     
+        /// <exception cref="InvalidOperationException">The function has not been declared in hoisting. <see cref="HoistingDecalreFunction"/> should be called first.</exception>     
         protected virtual void DecalreFunction(RuntimeContext context, string name, IFunctionObject value)
         {
             if (this.Functions.ContainsKey(name))
@@ -223,7 +223,7 @@ namespace Lapis.Script.Execution.Runtime
         /// <param name="context">The runtime context.</param>
         /// <param name="name">The class name.</param>
         /// <param name="value">The class object.</param>
-        /// <exception cref="InvalidOperationException">The class has not been declared in hoisting. <see cref="HoistingDecalreClass"> should be called first.</exception>     
+        /// <exception cref="InvalidOperationException">The class has not been declared in hoisting. <see cref="HoistingDecalreClass"/> should be called first.</exception>     
         void IVariableMemory.DecalreClass(RuntimeContext context, string name, IClassObject value)
         {
             DecalreClass(context, name, value);
@@ -235,7 +235,7 @@ namespace Lapis.Script.Execution.Runtime
         /// <param name="context">The runtime context.</param>
         /// <param name="name">The class name.</param>
         /// <param name="value">The class object.</param>
-        /// <exception cref="InvalidOperationException">The class has not been declared in hoisting. <see cref="HoistingDecalreClass"> should be called first.</exception>     
+        /// <exception cref="InvalidOperationException">The class has not been declared in hoisting. <see cref="HoistingDecalreClass"/> should be called first.</exception>     
         protected virtual void DecalreClass(RuntimeContext context, string name, IClassObject value)
         {
             if (this.Classes.ContainsKey(name))

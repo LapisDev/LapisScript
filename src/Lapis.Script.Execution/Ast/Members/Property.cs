@@ -47,7 +47,6 @@ namespace Lapis.Script.Execution.Ast.Members
         /// <param name="isStatic">A value indicating whether the member is static.</param>
         /// <param name="modifier">The access modifier of the member.</param>
         /// <param name="name">The name of the method.</param>
-        /// <param name="parameters">The parameters of the indexer.</param>
         /// <param name="getter">The <c>get</c> accessor of the property.</param>
         /// <param name="setter">The <c>set</c> accessor of the property.</param>        
         /// <exception cref="ArgumentNullException"><paramref name="linePragma"/> or <pararef name="parameters"/> is <see langword="null"/>.</exception>

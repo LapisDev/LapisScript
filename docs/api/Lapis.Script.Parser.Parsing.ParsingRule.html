@@ -1,0 +1,551 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ParsingRule
+   | LapisScript Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ParsingRule
+   | LapisScript Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Script.Parser.Parsing.ParsingRule">
+  
+  
+  <h1 id="Lapis_Script_Parser_Parsing_ParsingRule" data-uid="Lapis.Script.Parser.Parsing.ParsingRule" class="text-break">Class ParsingRule
+  </h1>
+  <div class="markdown level0 summary"><p>Provides static methods for creating the grammar rules. </p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ParsingRule</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Script.Parser.Parsing.html">Lapis.Script.Parser.Parsing</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Script.Parser.dll</h6>
+  <h5 id="Lapis_Script_Parser_Parsing_ParsingRule_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ParsingRule : Object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Script_Parser_Parsing_ParsingRule_Custom_" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.Custom*"></a>
+  <h4 id="Lapis_Script_Parser_Parsing_ParsingRule_Custom__1_System_Func_Lapis_Script_Parser_Lexical_BranchedLexer_System_Tuple_System_Boolean___0___" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.Custom``1(System.Func{Lapis.Script.Parser.Lexical.BranchedLexer,System.Tuple{System.Boolean,``0}})">Custom&lt;TResult&gt;(Func&lt;BranchedLexer, Tuple&lt;Boolean, TResult&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a grammar rule that uses the custom parsing rule and result converter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CustomParsingRule&lt;TResult&gt; Custom&lt;TResult&gt;(Func&lt;BranchedLexer, Tuple&lt;bool, TResult&gt;&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Lapis.Script.Parser.Lexical.BranchedLexer.html">BranchedLexer</a>, <span class="xref">System.Tuple</span>&lt;<span class="xref">System.Boolean</span>, TResult&gt;&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>A delegate that represents the parsing rule. It consumes tokens from the lexer, and returns a <span class="xref">System.Tuple`2</span> with the first item is a <span class="xref">System.Boolean</span> that indicating whether the match, and the second item that is the parsing result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Parsing.CustomParsingRule-1.html">CustomParsingRule</a>&lt;TResult&gt;</td>
+        <td><p>The created grammar rule that uses <code data-dev-comment-type="paramref">func</code> 的语法规则.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the parsing result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">func</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Parsing_ParsingRule_Empty_" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.Empty*"></a>
+  <h4 id="Lapis_Script_Parser_Parsing_ParsingRule_Empty__1___0_" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.Empty``1(``0)">Empty&lt;TResult&gt;(TResult)</h4>
+  <div class="markdown level1 summary"><p>Creates a grammar rule that doesn&apos;t consume <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> and returns the specified result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ParsingRule&lt;TResult&gt; Empty&lt;TResult&gt;(TResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>The parsing result to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Parsing.ParsingRule-1.html">ParsingRule</a>&lt;TResult&gt;</td>
+        <td><p>The created grammar rule that doesn&apos;t consume <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> and returns <code data-dev-comment-type="paramref">result</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the parsing result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Parsing_ParsingRule_GetParsingRule_" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.GetParsingRule*"></a>
+  <h4 id="Lapis_Script_Parser_Parsing_ParsingRule_GetParsingRule_Lapis_Script_Parser_Lexical_Lexeme_" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.GetParsingRule(Lapis.Script.Parser.Lexical.Lexeme)">GetParsingRule(Lexeme)</h4>
+  <div class="markdown level1 summary"><p>Creates a grammar rule that matches a <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> of the specified <a class="xref" href="Lapis.Script.Parser.Lexical.Lexeme.html">Lexeme</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ParsingRule&lt;Token&gt; GetParsingRule(this Lexeme lexeme)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.Lexeme.html">Lexeme</a></td>
+        <td><span class="parametername">lexeme</span></td>
+        <td><p>The specified <a class="xref" href="Lapis.Script.Parser.Lexical.Lexeme.html">Lexeme</a> of the <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> to match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Parsing.ParsingRule-1.html">ParsingRule</a>&lt;<a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a>&gt;</td>
+        <td><p>The grammar rule created that matches a <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> of <code data-dev-comment-type="paramref">lexeme</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">lexeme</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Parsing_ParsingRule_GetParsingRule_" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.GetParsingRule*"></a>
+  <h4 id="Lapis_Script_Parser_Parsing_ParsingRule_GetParsingRule__1_Lapis_Script_Parser_Lexical_Lexeme_System_Func_Lapis_Script_Parser_Lexical_Token___0__" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.GetParsingRule``1(Lapis.Script.Parser.Lexical.Lexeme,System.Func{Lapis.Script.Parser.Lexical.Token,``0})">GetParsingRule&lt;TResult&gt;(Lexeme, Func&lt;Token, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a grammar rule that matches a <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> of the specified <a class="xref" href="Lapis.Script.Parser.Lexical.Lexeme.html">Lexeme</a>, and converts the matched <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> to the parsing result using the specified converter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ParsingRule&lt;TResult&gt; GetParsingRule&lt;TResult&gt;(this Lexeme lexeme, Func&lt;Token, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.Lexeme.html">Lexeme</a></td>
+        <td><span class="parametername">lexeme</span></td>
+        <td><p>The specified <a class="xref" href="Lapis.Script.Parser.Lexical.Lexeme.html">Lexeme</a> of the <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> to match.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a>, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>The converter from the matched <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> to the parsing result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Parsing.ParsingRule-1.html">ParsingRule</a>&lt;TResult&gt;</td>
+        <td><p>The grammar rule created that matches a <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> of <code data-dev-comment-type="paramref">lexeme</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the parsing result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Parsing_ParsingRule_Or_" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.Or*"></a>
+  <h4 id="Lapis_Script_Parser_Parsing_ParsingRule_Or__1_Lapis_Script_Parser_Parsing_ParsingRule___0__Lapis_Script_Parser_Parsing_ParsingRule___0__" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.Or``1(Lapis.Script.Parser.Parsing.ParsingRule{``0},Lapis.Script.Parser.Parsing.ParsingRule{``0})">Or&lt;TResult&gt;(ParsingRule&lt;TResult&gt;, ParsingRule&lt;TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates the union of two grammar rules.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ParsingRule&lt;TResult&gt; Or&lt;TResult&gt;(ParsingRule&lt;TResult&gt; left, ParsingRule&lt;TResult&gt; right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Parsing.ParsingRule-1.html">ParsingRule</a>&lt;TResult&gt;</td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first grammar rule.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Parsing.ParsingRule-1.html">ParsingRule</a>&lt;TResult&gt;</td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second grammar rule.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Parsing.ParsingRule-1.html">ParsingRule</a>&lt;TResult&gt;</td>
+        <td><p>The union of the two grammar rules.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Parser_Parsing_ParsingRule_Token_" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.Token*"></a>
+  <h4 id="Lapis_Script_Parser_Parsing_ParsingRule_Token_Lapis_Script_Parser_Lexical_Lexeme_" data-uid="Lapis.Script.Parser.Parsing.ParsingRule.Token(Lapis.Script.Parser.Lexical.Lexeme)">Token(Lexeme)</h4>
+  <div class="markdown level1 summary"><p>Creates a grammar rule that matches a <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> of the specified <a class="xref" href="Lapis.Script.Parser.Lexical.Lexeme.html">Lexeme</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ParsingRule&lt;Token&gt; Token(Lexeme lexeme)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Lexical.Lexeme.html">Lexeme</a></td>
+        <td><span class="parametername">lexeme</span></td>
+        <td><p>The specified <a class="xref" href="Lapis.Script.Parser.Lexical.Lexeme.html">Lexeme</a> of the <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> to match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Parser.Parsing.ParsingRule-1.html">ParsingRule</a>&lt;<a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a>&gt;</td>
+        <td><p>The grammar rule created that matches a <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> of <code data-dev-comment-type="paramref">lexeme</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">lexeme</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

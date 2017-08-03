@@ -1,0 +1,600 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class OperatorDictionary
+   | LapisScript Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class OperatorDictionary
+   | LapisScript Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary">
+  
+  
+  <h1 id="Lapis_Script_Execution_Runtime_OperatorDictionary" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary" class="text-break">Class OperatorDictionary
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a dictionary containing the operators used by the runtime context.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">OperatorDictionary</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Script.Execution.Runtime.html">Lapis.Script.Execution.Runtime</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Script.Execution.dll</h6>
+  <h5 id="Lapis_Script_Execution_Runtime_OperatorDictionary_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class OperatorDictionary : Object, IOperatorCalculator</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_OperatorDictionary__ctor_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.#ctor*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_OperatorDictionary__ctor" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.#ctor">OperatorDictionary()</h4>
+  <div class="markdown level1 summary"><p>Initialize a new instance of the <a class="xref" href="Lapis.Script.Execution.Runtime.OperatorDictionary.html">OperatorDictionary</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OperatorDictionary()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_OperatorDictionary_BinaryOperators_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.BinaryOperators*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_OperatorDictionary_BinaryOperators" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.BinaryOperators">BinaryOperators</h4>
+  <div class="markdown level1 summary"><p>Gets the dictionary containing the binary operators.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Func&lt;RuntimeContext, Expression, Expression, IScriptObject&gt;&gt; BinaryOperators { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Func</span>&lt;<a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a>, <a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a>, <a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a>, <a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a>&gt;&gt;</td>
+        <td><p>The dictionary containing the binary operators.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_OperatorDictionary_Default_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.Default*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_OperatorDictionary_Default" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.Default">Default</h4>
+  <div class="markdown level1 summary"><p>Gets an <a class="xref" href="Lapis.Script.Execution.Runtime.OperatorDictionary.html">OperatorDictionary</a> instance that contains the default built-in operators.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static OperatorDictionary Default { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.OperatorDictionary.html">OperatorDictionary</a></td>
+        <td><p>The default <a class="xref" href="Lapis.Script.Execution.Runtime.OperatorDictionary.html">OperatorDictionary</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_OperatorDictionary_PostfixOperators_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.PostfixOperators*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_OperatorDictionary_PostfixOperators" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.PostfixOperators">PostfixOperators</h4>
+  <div class="markdown level1 summary"><p>Gets the dictionary containing the postfix unary operators.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Func&lt;RuntimeContext, Expression, IScriptObject&gt;&gt; PostfixOperators { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Func</span>&lt;<a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a>, <a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a>, <a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a>&gt;&gt;</td>
+        <td><p>The dictionary containing the postfix unary operators.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_OperatorDictionary_PrefixOperators_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.PrefixOperators*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_OperatorDictionary_PrefixOperators" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.PrefixOperators">PrefixOperators</h4>
+  <div class="markdown level1 summary"><p>Gets the dictionary containing the prefix unary operators.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Func&lt;RuntimeContext, Expression, IScriptObject&gt;&gt; PrefixOperators { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Func</span>&lt;<a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a>, <a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a>, <a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a>&gt;&gt;</td>
+        <td><p>The dictionary containing the prefix unary operators.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_OperatorDictionary_TernaryOperators_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.TernaryOperators*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_OperatorDictionary_TernaryOperators" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.TernaryOperators">TernaryOperators</h4>
+  <div class="markdown level1 summary"><p>Gets the dictionary containing the ternary operators. The key for a ternary operator is the symbols of the two operators joined by a white space (<code>&apos; &apos;</code>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, Func&lt;RuntimeContext, Expression, Expression, Expression, IScriptObject&gt;&gt; TernaryOperators { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Func</span>&lt;<a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a>, <a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a>, <a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a>, <a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a>, <a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a>&gt;&gt;</td>
+        <td><p>The dictionary containing the ternary operators.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_OperatorDictionary_Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculateBinaryOperator_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.Lapis#Script#Execution#Runtime#IOperatorCalculator#CalculateBinaryOperator*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_OperatorDictionary_Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculateBinaryOperator_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_String_Lapis_Script_Execution_Ast_Expressions_Expression_Lapis_Script_Execution_Ast_Expressions_Expression_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.Lapis#Script#Execution#Runtime#IOperatorCalculator#CalculateBinaryOperator(Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext,System.String,Lapis.Script.Execution.Ast.Expressions.Expression,Lapis.Script.Execution.Ast.Expressions.Expression)">IOperatorCalculator.CalculateBinaryOperator(RuntimeContext, String, Expression, Expression)</h4>
+  <div class="markdown level1 summary"><p>Evaluates the specified binary operator expression and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IScriptObject IOperatorCalculator.CalculateBinaryOperator(RuntimeContext context, string oper, Expression left, Expression right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The runtime context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">oper</span></td>
+        <td><p>The operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a></td>
+        <td><p>The result of the expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Lapis.Script.Execution.Runtime.IOperatorCalculator.html#Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculateBinaryOperator_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_String_Lapis_Script_Execution_Ast_Expressions_Expression_Lapis_Script_Execution_Ast_Expressions_Expression_">IOperatorCalculator.CalculateBinaryOperator(RuntimeContext, String, Expression, Expression)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p>No operator is matched.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_OperatorDictionary_Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculatePostfixOperators_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.Lapis#Script#Execution#Runtime#IOperatorCalculator#CalculatePostfixOperators*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_OperatorDictionary_Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculatePostfixOperators_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_String_Lapis_Script_Execution_Ast_Expressions_Expression_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.Lapis#Script#Execution#Runtime#IOperatorCalculator#CalculatePostfixOperators(Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext,System.String,Lapis.Script.Execution.Ast.Expressions.Expression)">IOperatorCalculator.CalculatePostfixOperators(RuntimeContext, String, Expression)</h4>
+  <div class="markdown level1 summary"><p>Evaluates the specified postfix unary operator expression and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IScriptObject IOperatorCalculator.CalculatePostfixOperators(RuntimeContext context, string oper, Expression left)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The runtime context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">oper</span></td>
+        <td><p>The operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a></td>
+        <td><p>The result of the expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Lapis.Script.Execution.Runtime.IOperatorCalculator.html#Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculatePostfixOperators_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_String_Lapis_Script_Execution_Ast_Expressions_Expression_">IOperatorCalculator.CalculatePostfixOperators(RuntimeContext, String, Expression)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p>No operator is matched.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_OperatorDictionary_Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculatePrefixOperators_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.Lapis#Script#Execution#Runtime#IOperatorCalculator#CalculatePrefixOperators*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_OperatorDictionary_Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculatePrefixOperators_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_String_Lapis_Script_Execution_Ast_Expressions_Expression_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.Lapis#Script#Execution#Runtime#IOperatorCalculator#CalculatePrefixOperators(Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext,System.String,Lapis.Script.Execution.Ast.Expressions.Expression)">IOperatorCalculator.CalculatePrefixOperators(RuntimeContext, String, Expression)</h4>
+  <div class="markdown level1 summary"><p>Evaluates the specified prefix unary operator expression and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IScriptObject IOperatorCalculator.CalculatePrefixOperators(RuntimeContext context, string oper, Expression right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The runtime context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">oper</span></td>
+        <td><p>The operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a></td>
+        <td><p>The result of the expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Lapis.Script.Execution.Runtime.IOperatorCalculator.html#Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculatePrefixOperators_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_String_Lapis_Script_Execution_Ast_Expressions_Expression_">IOperatorCalculator.CalculatePrefixOperators(RuntimeContext, String, Expression)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p>No operator is matched.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Script_Execution_Runtime_OperatorDictionary_Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculateTernaryOperators_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.Lapis#Script#Execution#Runtime#IOperatorCalculator#CalculateTernaryOperators*"></a>
+  <h4 id="Lapis_Script_Execution_Runtime_OperatorDictionary_Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculateTernaryOperators_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_String_System_String_Lapis_Script_Execution_Ast_Expressions_Expression_Lapis_Script_Execution_Ast_Expressions_Expression_Lapis_Script_Execution_Ast_Expressions_Expression_" data-uid="Lapis.Script.Execution.Runtime.OperatorDictionary.Lapis#Script#Execution#Runtime#IOperatorCalculator#CalculateTernaryOperators(Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext,System.String,System.String,Lapis.Script.Execution.Ast.Expressions.Expression,Lapis.Script.Execution.Ast.Expressions.Expression,Lapis.Script.Execution.Ast.Expressions.Expression)">IOperatorCalculator.CalculateTernaryOperators(RuntimeContext, String, String, Expression, Expression, Expression)</h4>
+  <div class="markdown level1 summary"><p>Evaluates the specified binary operator expression and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IScriptObject IOperatorCalculator.CalculateTernaryOperators(RuntimeContext context, string oper1, string oper2, Expression operand1, Expression operand2, Expression operand3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.RuntimeContexts.RuntimeContext.html">RuntimeContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The runtime context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">oper1</span></td>
+        <td><p>The first operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">oper2</span></td>
+        <td><p>The second operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">operand1</span></td>
+        <td><p>The first expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">operand2</span></td>
+        <td><p>The second expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Ast.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">operand3</span></td>
+        <td><p>The third expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Script.Execution.Runtime.ScriptObjects.IScriptObject.html">IScriptObject</a></td>
+        <td><p>The result of the expression.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Lapis.Script.Execution.Runtime.IOperatorCalculator.html#Lapis_Script_Execution_Runtime_IOperatorCalculator_CalculateTernaryOperators_Lapis_Script_Execution_Runtime_RuntimeContexts_RuntimeContext_System_String_System_String_Lapis_Script_Execution_Ast_Expressions_Expression_Lapis_Script_Execution_Ast_Expressions_Expression_Lapis_Script_Execution_Ast_Expressions_Expression_">IOperatorCalculator.CalculateTernaryOperators(RuntimeContext, String, String, Expression, Expression, Expression)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p>No operator is matched.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

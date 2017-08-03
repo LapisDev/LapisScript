@@ -21,6 +21,7 @@ namespace Lapis.Script.Execution.Runtime.ScriptObjects
         /// <summary>
         /// Represents the <see langword="null"/> reference.
         /// </summary>
+        /// <value>The <see langword="null"/> reference.</value>
         public static readonly ScriptNull Instance = new ScriptNull();
 
         /// <summary>

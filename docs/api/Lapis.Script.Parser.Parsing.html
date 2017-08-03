@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Lapis.Script.Parser.Parsing
+   | LapisScript Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Lapis.Script.Parser.Parsing
+   | LapisScript Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Script.Parser.Parsing">
+  
+  <h1 id="Lapis_Script_Parser_Parsing" data-uid="Lapis.Script.Parser.Parsing" class="text-break">Namespace Lapis.Script.Parser.Parsing
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="Lapis.Script.Parser.Parsing.AlternateParsingRule-1.html">AlternateParsingRule&lt;TResult&gt;</a></h4>
+      <section><p>Represents the union of two parsing rules.</p>
+</section>
+      <h4><a class="xref" href="Lapis.Script.Parser.Parsing.ConcatenateParsingRule-3.html">ConcatenateParsingRule&lt;T1, T2, TResult&gt;</a></h4>
+      <section><p>Represents the concatenation of two parsing rules.</p>
+</section>
+      <h4><a class="xref" href="Lapis.Script.Parser.Parsing.CustomParsingRule-1.html">CustomParsingRule&lt;TResult&gt;</a></h4>
+      <section><p>Represents a grammar rule that uses the custom parsing rule and result converter.</p>
+</section>
+      <h4><a class="xref" href="Lapis.Script.Parser.Parsing.EmptyParsingRule-1.html">EmptyParsingRule&lt;TResult&gt;</a></h4>
+      <section><p>Represents a grammar rule that doesn&apos;t consume <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> and returns the specified result.</p>
+</section>
+      <h4><a class="xref" href="Lapis.Script.Parser.Parsing.MappingParsingRule-2.html">MappingParsingRule&lt;T, TResult&gt;</a></h4>
+      <section><p>Reprensents a grammar rule that wraps the specified parsing rule and converts its result.</p>
+</section>
+      <h4><a class="xref" href="Lapis.Script.Parser.Parsing.ParserException.html">ParserException</a></h4>
+      <section><p>The exception that is thrown during the grammar analysis.</p>
+</section>
+      <h4><a class="xref" href="Lapis.Script.Parser.Parsing.ParsingRule.html">ParsingRule</a></h4>
+      <section><p>Provides static methods for creating the grammar rules. </p>
+</section>
+      <h4><a class="xref" href="Lapis.Script.Parser.Parsing.ParsingRule-1.html">ParsingRule&lt;TResult&gt;</a></h4>
+      <section><p>Represents a cparsing rule. This class is abstract.</p>
+</section>
+      <h4><a class="xref" href="Lapis.Script.Parser.Parsing.ParsingRuleContainer-1.html">ParsingRuleContainer&lt;TResult&gt;</a></h4>
+      <section><p>Represents a container of a parsing rule. The actual parsing rule can be set as the content after the instance of the <a class="xref" href="Lapis.Script.Parser.Parsing.ParsingRuleContainer-1.html">ParsingRuleContainer&lt;TResult&gt;</a> class is created.</p>
+</section>
+      <h4><a class="xref" href="Lapis.Script.Parser.Parsing.RepeatingParsingRule-2.html">RepeatingParsingRule&lt;T, TResult&gt;</a></h4>
+      <section><p>Represents the repetition of a parsing rule.</p>
+</section>
+      <h4><a class="xref" href="Lapis.Script.Parser.Parsing.TokenParsingRule-1.html">TokenParsingRule&lt;TResult&gt;</a></h4>
+      <section><p>Represents a grammar rule that matches a <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> of the specified <a class="xref" href="Lapis.Script.Parser.Parsing.TokenParsingRule-1.html#Lapis_Script_Parser_Parsing_TokenParsingRule_1_Lexeme">Lexeme</a>, and converts the matched <a class="xref" href="Lapis.Script.Parser.Lexical.Token.html">Token</a> to the parsing result using the specified converter.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

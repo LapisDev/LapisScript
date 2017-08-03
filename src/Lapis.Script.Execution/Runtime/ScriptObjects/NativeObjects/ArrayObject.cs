@@ -81,7 +81,7 @@ namespace Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects
         /// <summary>
         /// Returns an enumerator that iterates through the <see cref="ArrayObject"/>.
         /// </summary>
-        /// <returnsAn enumerator for the <see cref="ArrayObject"/>.</returns>
+        /// <returns>An enumerator for the <see cref="ArrayObject"/>.</returns>
         public IEnumerator<IScriptObject> GetEnumerator()
         {
             return Items.GetEnumerator();
@@ -90,7 +90,7 @@ namespace Lapis.Script.Execution.Runtime.ScriptObjects.NativeObjects
         /// <summary>
         /// Returns an enumerator that iterates through the <see cref="ArrayObject"/>.
         /// </summary>
-        /// <returnsAn enumerator for the <see cref="ArrayObject"/>.</returns>
+        /// <returns>An enumerator for the <see cref="ArrayObject"/>.</returns>
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
             return Items.GetEnumerator();

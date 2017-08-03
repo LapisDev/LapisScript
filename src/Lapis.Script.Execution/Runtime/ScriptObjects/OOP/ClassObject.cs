@@ -45,7 +45,7 @@ namespace Lapis.Script.Execution.Runtime.ScriptObjects.OOP
         /// <value>The static fields of the class.</value>
         public Dictionary<string, IScriptObject> StaticFields { get; private set; }
 
-        //// <summary>
+        /// <summary>
         /// Gets the static methods of the class.
         /// </summary>
         /// <value>The static methods of the class.</value>

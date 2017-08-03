@@ -40,7 +40,7 @@ namespace Lapis.Script.Execution.Ast.Statements
         public StatementCollection Default { get; private set; }
 
         /// <summary>
-        /// Initialize a new instance of the <see cref="ISwitchStatement"/> class using the specified parameters.
+        /// Initialize a new instance of the <see cref="SwitchStatement"/> class using the specified parameters.
         /// </summary>
         /// <param name="linePragma">The position of the statement in the script code.</param>
         /// <param name="expression">The expression to be evaluated.</param>
@@ -197,7 +197,7 @@ namespace Lapis.Script.Execution.Ast.Statements
             : this((IEnumerable<SwitchCase>)switchCases) { }
      
         /// <summary>
-        /// Returns an enumerator that iterates through the <see cref="SSwitchCaseCollection"/>.
+        /// Returns an enumerator that iterates through the <see cref="SwitchCaseCollection"/>.
         /// </summary>
         /// <returns>An enumerator for the <see cref="SwitchCaseCollection"/>.</returns>
         public IEnumerator<SwitchCase> GetEnumerator()
@@ -206,7 +206,7 @@ namespace Lapis.Script.Execution.Ast.Statements
         }
 
         /// <summary>
-        /// Returns an enumerator that iterates through the <see cref="SSwitchCaseCollection"/>.
+        /// Returns an enumerator that iterates through the <see cref="SwitchCaseCollection"/>.
         /// </summary>
         /// <returns>An enumerator for the <see cref="SwitchCaseCollection"/>.</returns>
         System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()

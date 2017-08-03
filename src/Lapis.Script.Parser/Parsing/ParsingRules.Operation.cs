@@ -21,7 +21,6 @@ namespace Lapis.Script.Parser.Parsing
         /// <summary>
         /// Creates a grammar rule that matches a <see cref="Lexical.Token"/> of the specified <see cref="Lexeme"/>, and converts the matched <see cref="Lexical.Token"/> to the parsing result using the specified converter.
         /// </summary>
-        /// <typeparam name="TResult">The type of the parsing result.</typeparam>
         /// <param name="lexeme">The specified <see cref="Lexeme"/> of the <see cref="Lexical.Token"/> to match.</param>
         /// <param name="func">The converter from the matched <see cref="Lexical.Token"/> to the parsing result.</param>
         /// <returns>The grammar rule created that matches a <see cref="Lexical.Token"/> of <paramref name="lexeme"/>.</returns>
@@ -37,7 +36,6 @@ namespace Lapis.Script.Parser.Parsing
         /// <summary>
         /// Creates a grammar rule that doesn't consume <see cref="Lexical.Token"/> and returns the specified result.
         /// </summary>
-        /// <typeparam name="TResult">The type of the parsing result.</typeparam>
         /// <param name="result">The parsing result to return.</param>
         /// <returns>The created grammar rule that doesn't consume <see cref="Lexical.Token"/> and returns <paramref name="result"/>.</returns>
         public static ParsingRule<TResult> Empty(TResult result)
